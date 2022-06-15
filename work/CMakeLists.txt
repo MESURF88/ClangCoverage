@@ -32,11 +32,6 @@ enable_testing()
 ################################
 # Unit Tests
 ################################
-# source files
-set(test_source
- ${CMAKE_CURRENT_SOURCE_DIR}/tmp.cpp
- ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
-)
 # Add test cpp file
 add_executable( runUnitTests "" )
 
@@ -49,7 +44,6 @@ ${CMAKE_CURRENT_SOURCE_DIR}
 
 # unit test source files
 set(__utsrc
-${CMAKE_CURRENT_SOURCE_DIR}/tmp.cpp
 ${CMAKE_CURRENT_SOURCE_DIR}/unit_test_main.cpp
 )
 
