@@ -1,0 +1,7 @@
+ut_report
+report
+CMakeFiles
+googletest-release-1.10.0
+*.profdata
+*.profraw
+build

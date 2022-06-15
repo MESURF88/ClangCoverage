@@ -1,0 +1,2 @@
+
+void pubfunc(int x);
